@@ -40,33 +40,33 @@
 
 # Rotas
 
-:memo: <p align="justify">
-  Listar todos os TODOS - GET - urlPath/api - query options - ?page=1 & limit=10
+<p align="justify">
+  :memo: Listar todos os TODOS - GET - urlPath/api - query options - ?page=1 & limit=10
   * page - número da Pagina
   * limit - limite de todos listado por pagina
 </p>
 
-:memo: <p align="justify">
-  Novo TODO - POST - urlPath/api
+<p align="justify">
+  :memo: Novo TODO - POST - urlPath/api
   * body - { name, description, isActive }
   * required - name, description
   * default - isActive é 'false', se não passar valor
 </p>
 
-:memo: <p align="justify">
-  Update TODO - PUT - urlPath/api/:id
+<p align="justify">
+  :memo:  Update TODO - PUT - urlPath/api/:id
   * body - { name, description, isActive }
   * required - name, description, isActive
   * params url - passar o id na url
 </p>
 
-:memo: <p align="justify">
-  Delete TODO - DELETE - urlPath/api/:id
+<p align="justify">
+  :memo: Delete TODO - DELETE - urlPath/api/:id
   * params url - passar o id na url
 </p>
 
-:memo: <p align="justify">
-  Encontrar TODO pelo ID - GET - urlPath/api/:id
+<p align="justify">
+  :memo: Encontrar TODO pelo ID - GET - urlPath/api/:id
   * params url - passar o id na url
 </p>
 
@@ -75,10 +75,13 @@
 Coloque um passo a passo para executar os testes
 
 <p align="justify">Produção</p>
+
 ```
 $ npm start
 ```
+
 <p align="justify">Desenvolvimento</p>
+
 ```
 $ npm run dev
 ```
