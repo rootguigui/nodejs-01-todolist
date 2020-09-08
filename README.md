@@ -15,9 +15,7 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
-
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
+:small_blue_diamond: [Rotas](#rotas)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
@@ -42,22 +40,51 @@
 
 # Rotas
 
-### Listar todos os TODOS - GET - urlPath/api - query options - ?page=1 & limit=10
+:memo: <p align="justify">
+  Listar todos os TODOS - GET - urlPath/api - query options - ?page=1 & limit=10
   * page - número da Pagina
   * limit - limite de todos listado por pagina
+</p>
 
-### Novo TODO - POST - urlPath/api
+:memo: <p align="justify">
+  Novo TODO - POST - urlPath/api
   * body - { name, description, isActive }
   * required - name, description
   * default - isActive é 'false', se não passar valor
+</p>
 
-### Update TODO - PUT - urlPath/api/:id
+:memo: <p align="justify">
+  Update TODO - PUT - urlPath/api/:id
   * body - { name, description, isActive }
   * required - name, description, isActive
   * params url - passar o id na url
+</p>
 
-### Delete TODO - DELETE - urlPath/api/:id
+:memo: <p align="justify">
+  Delete TODO - DELETE - urlPath/api/:id
   * params url - passar o id na url
+</p>
 
-### Encontrar TODO pelo ID - GET - urlPath/api/:id
+:memo: <p align="justify">
+  Encontrar TODO pelo ID - GET - urlPath/api/:id
   * params url - passar o id na url
+</p>
+
+## Como rodar os testes
+
+Coloque um passo a passo para executar os testes
+
+<p align="justify">Produção</p>
+```
+$ npm start
+```
+<p align="justify">Desenvolvimento</p>
+```
+$ npm run dev
+```
+
+## Licença 
+
+The [MIT License]() (MIT)
+
+Copyright :copyright: Ano - Titulo do Projeto
