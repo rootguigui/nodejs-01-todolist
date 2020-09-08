@@ -9,7 +9,36 @@
 
 > Status do Projeto: :heavy_check_mark: concluido
 
-### Simples "Todo List" feito em NodeJS, MongoDB, Express para Praticar
+### Tópicos 
+
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+
+:small_blue_diamond: [Funcionalidades](#funcionalidades)
+
+:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+
+:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
+
+:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+
+... 
+
+## Descrição do projeto
+
+<p align="justify">
+  Simples "Todo List" feito em NodeJS, MongoDB, Express para Praticar. 
+</p>
+
+## Funcionalidades
+
+:heavy_check_mark: Lista todos TODOS e Listar TODO específico.  
+
+:heavy_check_mark: Adicionar Novo TODO. 
+
+:heavy_check_mark: Atualizar TODO.  
+
+:heavy_check_mark: Deletar TODO. 
+
 
 # Rotas
 
